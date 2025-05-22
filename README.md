@@ -1,6 +1,15 @@
 # Official repository for the paper "Learning Latent Graph Structures and Their Uncertainty" (ICML 2025)
 
-Official repository for the paper "Learning Latent Graph Structures and Their Uncertainty" (ICML 2025).
+Official repository for the paper "Learning Latent Graph Structures and Their Uncertainty" (ICML 2025) by [Alessandro Manenti](https://allemanenti.github.io/), [Daniele Zambon](https://dzambon.github.io/) and [Cesare Alippi](https://scholar.google.com/citations?user=zyzNf4AAAAAJ). Please cite as:
+
+```bibtex
+@inproceedings{manenti2025learning,
+  title={Learning latent graph structures and their uncertainty},
+  author={Manenti, Alessandro and Zambon, Daniele and Alippi, Cesare},
+  booktitle={Forty-second International Conference on Machine Learning},
+  year={2025}
+}
+```
 
 This repository contains a refactoring of the code used in the paper "Learning Latent Graph Structures and Their Uncertainty" (ICML 2025). The code is designed to be modular and easy to use, allowing for quick experimentation with different GNNs and Datasets.
 
