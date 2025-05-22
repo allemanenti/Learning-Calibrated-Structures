@@ -1,0 +1,21 @@
+defaults:
+  - _self_
+  - model: model_base.yaml          # Model configuration
+  - dataset: dataset_base.yaml      # Dataset configuration
+  - optimization: optimization_base.yaml # Optimizer, scheduler, loss, hyperparameters like batch size...
+
+gpu: 3
+seed: 
+
+hydra:
+  output_subdir: null
+  run:
+    dir: ./
+  sweep:
+    dir: ./
+    subdir: ''
+  mode: MULTIRUN
+  sweeper:
+    params:
+      # Uncomment to sweep over different parameters
+      # optimization.loss.name: EV_MAE, PP_MSE

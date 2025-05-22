@@ -1,0 +1,7 @@
+.vscode*
+data/*
+dataset/.storage*
+*__pycache__*
+figures/*
+multirun.yaml
+run_experiment.log

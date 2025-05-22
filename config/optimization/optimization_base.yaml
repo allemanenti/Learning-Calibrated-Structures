@@ -1,0 +1,19 @@
+# @package _global_
+optimization:
+  hparams:
+    epochs: 10
+    batch_size: 128
+    train_size: 0.7
+    val_size: 0.1
+  optimizer:
+    name: Adam
+    kwargs:
+      lr: 0.1
+      weight_decay: 0.
+  loss:
+    name: ENG_DIST
+    kwargs:
+      alpha: 0.5
+      sigma: 0.04
+  score_function:
+    variance_reduction: True
